@@ -1,4 +1,5 @@
-import express from 'express';
+import express = require('express')
+
 import { getCart, addToCart, removeFromCart, clearCart } from '../controllers/cartController';
 
 const router = express.Router();
